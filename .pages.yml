@@ -25,14 +25,16 @@ content:
           - { name: logo, label: Logo image (optional), type: image }
       - name: categories
         label: Menu sections
-        type: list
+        type: object
+        list: true
         fields:
           - { name: id, label: Section id (do not change), type: string }
           - { name: label_en, label: Section name (English), type: string }
           - { name: label_ar, label: Section name (Arabic), type: string }
           - name: items
             label: Dishes
-            type: list
+            type: object
+            list: true
             fields:
               - { name: key, label: Key (do not change), type: string }
               - { name: name_en, label: Name (English), type: string }
@@ -40,9 +42,4 @@ content:
               - { name: price, label: Price, type: string }
               - { name: desc_en, label: Description (English), type: text }
               - { name: image, label: Photo, type: image }
-              - name: tags
-                label: Tags
-                type: select
-                list: true
-                options:
-                  values: [vegan, spicy]
+              - { name: tags, label: Tags, type: select, list: true, options: { values: [vegan, spicy] } }
