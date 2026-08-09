@@ -1,0 +1,48 @@
+media:
+  input: menu
+  output: /menu
+
+content:
+  - name: menu
+    label: Menu & info
+    type: file
+    path: content.json
+    fields:
+      - name: brand
+        label: Café info & logo
+        type: object
+        fields:
+          - { name: location_en, label: Location (English), type: string }
+          - { name: location_ar, label: Location (Arabic), type: string }
+          - { name: hours_en, label: Opening hours (English), type: string }
+          - { name: hours_ar, label: Opening hours (Arabic), type: string }
+          - { name: phone, label: Phone, type: string }
+          - { name: instagram, label: Instagram, type: string }
+          - { name: hero_sub_en, label: Hero subtitle (English), type: text }
+          - { name: hero_sub_ar, label: Hero subtitle (Arabic), type: text }
+          - { name: tagline_en, label: Footer tagline (English), type: text }
+          - { name: tagline_ar, label: Footer tagline (Arabic), type: text }
+          - { name: logo, label: Logo image (optional), type: image }
+      - name: categories
+        label: Menu sections
+        type: list
+        fields:
+          - { name: id, label: Section id (do not change), type: string }
+          - { name: label_en, label: Section name (English), type: string }
+          - { name: label_ar, label: Section name (Arabic), type: string }
+          - name: items
+            label: Dishes
+            type: list
+            fields:
+              - { name: key, label: Key (do not change), type: string }
+              - { name: name_en, label: Name (English), type: string }
+              - { name: name_ar, label: Name (Arabic), type: string }
+              - { name: price, label: Price, type: string }
+              - { name: desc_en, label: Description (English), type: text }
+              - { name: image, label: Photo, type: image }
+              - name: tags
+                label: Tags
+                type: select
+                list: true
+                options:
+                  values: [vegan, spicy]

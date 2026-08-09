@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "menu"
+public_folder: "/menu"
+
+collections:
+  - name: "content"
+    label: "Menu & Info"
+    files:
+      - name: "site"
+        label: "Café menu & info"
+        file: "content.json"
+        fields:
+          - label: "Brand & info"
+            name: "brand"
+            widget: "object"
+            fields:
+              - { label: "Location (English)", name: "location_en", widget: "string" }
+              - { label: "Location (Arabic)", name: "location_ar", widget: "string" }
+              - { label: "Opening hours (English)", name: "hours_en", widget: "string" }
+              - { label: "Opening hours (Arabic)", name: "hours_ar", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Instagram", name: "instagram", widget: "string" }
+              - { label: "Hero subtitle (English)", name: "hero_sub_en", widget: "text" }
+              - { label: "Hero subtitle (Arabic)", name: "hero_sub_ar", widget: "text" }
+              - { label: "Footer tagline (English)", name: "tagline_en", widget: "text" }
+              - { label: "Footer tagline (Arabic)", name: "tagline_ar", widget: "text" }
+          - label: "Menu sections"
+            name: "categories"
+            widget: "list"
+            label_singular: "section"
+            summary: "{{fields.label_en}}"
+            fields:
+              - { label: "Section id (do not change)", name: "id", widget: "string" }
+              - { label: "Section name (English)", name: "label_en", widget: "string" }
+              - { label: "Section name (Arabic)", name: "label_ar", widget: "string" }
+              - label: "Dishes"
+                name: "items"
+                widget: "list"
+                label_singular: "dish"
+                summary: "{{fields.name_en}} — {{fields.price}}"
+                fields:
+                  - { label: "Key (do not change)", name: "key", widget: "string" }
+                  - { label: "Name (English)", name: "name_en", widget: "string" }
+                  - { label: "Name (Arabic)", name: "name_ar", widget: "string" }
+                  - { label: "Price (₪)", name: "price", widget: "string" }
+                  - { label: "Description (English)", name: "desc_en", widget: "text", required: false }
+                  - { label: "Tags", name: "tags", widget: "select", multiple: true, required: false, options: ["vegan", "spicy"] }
