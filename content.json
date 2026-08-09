@@ -1,87 +1,498 @@
 {
   "brand": {
-    "hero_sub_en": "Artful flavours crafted with passion — from authentic breakfasts to refined plates. Discover our menu.",
-    "hero_sub_ar": "نكهات فنية مصنوعة بشغف — من الفطور الأصيل إلى الأطباق الفاخرة. اكتشف قائمتنا.",
-    "tagline_en": "Where craft meets hospitality. We look forward to welcoming you.",
-    "tagline_ar": "حيث تلتقي الحرفية بالضيافة. نتطلع لاستقبالكم.",
     "location_en": "Isa Ziada St 3, Ramallah",
     "location_ar": "شارع عيسى زيادة ٣، رام الله",
     "hours_en": "Daily 7 AM – 12 AM",
     "hours_ar": "يومياً ٧ ص – ١٢ م",
     "phone": "+970 000 000 000",
-    "instagram": "@cafe.de.la.paix"
+    "instagram": "@cafe.de.la.paix",
+    "hero_sub_en": "Artful flavours crafted with passion — from authentic breakfasts to refined plates. Discover our menu.",
+    "hero_sub_ar": "نكهات فنية مصنوعة بشغف — من الفطور الأصيل إلى الأطباق الفاخرة. اكتشف قائمتنا.",
+    "tagline_en": "Where craft meets hospitality. We look forward to welcoming you.",
+    "tagline_ar": "حيث تلتقي الحرفية بالضيافة. نتطلع لاستقبالكم.",
+    "logo": "/menu/Screenshot 2023-04-04 140712.png"
   },
   "categories": [
-    { "id": "breakfast", "label_en": "Breakfast", "label_ar": "الفطور", "items": [
-      { "key": "Artisan Breakfast", "name_en": "Artisan Breakfast", "name_ar": "فطور أرتيزان", "price": "56", "desc_en": "A luxurious breakfast spread for two.", "tags": [] },
-      { "key": "Folded Omelette Delight sandwich", "name_en": "Folded Omelette Delight sandwich", "name_ar": "ساندويش أومليت مطوي", "price": "35", "desc_en": "A folded omelette in a delicious sandwich.", "tags": [] },
-      { "key": "Sujok Sunrise Omelette", "name_en": "Sujok Sunrise Omelette", "name_ar": "أومليت السجق", "price": "42", "desc_en": "Omelette rich with spicy sujok.", "tags": ["spicy"] },
-      { "key": "Brioche French Toast Luxe", "name_en": "Brioche French Toast Luxe", "name_ar": "توست فرنسي بريوش فاخر", "price": "42", "desc_en": "French toast on rich brioche.", "tags": [] },
-      { "key": "Crostini Benedict", "name_en": "Crostini Benedict", "name_ar": "كروستيني بينديكت", "price": "39", "desc_en": "Eggs benedict on crisp crostini.", "tags": [] },
-      { "key": "Sausage sajiyeh", "name_en": "Sausage sajiyeh", "name_ar": "صاجية سجق", "price": "40", "desc_en": "Sausage cooked on the saj.", "tags": [] },
-      { "key": "Halloumi and honey", "name_en": "Halloumi and honey", "name_ar": "حلوم وعسل", "price": "27", "desc_en": "Grilled halloumi with natural honey.", "tags": [] },
-      { "key": "Hummus beef", "name_en": "Hummus beef", "name_ar": "حمص باللحم", "price": "35", "desc_en": "Creamy hummus with spiced beef.", "tags": [] },
-      { "key": "Hummus chicken", "name_en": "Hummus chicken", "name_ar": "حمص بالدجاج", "price": "30", "desc_en": "Creamy hummus with chicken.", "tags": [] },
-      { "key": "Labneh and herbs", "name_en": "Labneh and herbs", "name_ar": "لبنة بالأعشاب", "price": "23", "desc_en": "Fresh labneh with aromatic herbs.", "tags": ["vegan"] },
-      { "key": "Eggs and potatoes", "name_en": "Eggs and potatoes", "name_ar": "بيض وبطاطا", "price": "25", "desc_en": "Eggs with crispy roasted potatoes.", "tags": [] },
-      { "key": "Shakshouka", "name_en": "Shakshouka", "name_ar": "شكشوكة", "price": "30", "desc_en": "Eggs poached in rich tomato sauce.", "tags": ["spicy"] },
-      { "key": "Artisan avo plate", "name_en": "Artisan avo plate", "name_ar": "صحن أفوكادو أرتيزان", "price": "25", "desc_en": "Fresh avocado with toppings.", "tags": ["vegan"] },
-      { "key": "Tasliha plate", "name_en": "Tasliha plate", "name_ar": "صحن تصليحة", "price": "13", "desc_en": "A traditional tasliha plate.", "tags": [] }
-    ]},
-    { "id": "taboon", "label_en": "Taboon", "label_ar": "الطابون", "items": [
-      { "key": "Za'atar wonder", "name_en": "Za'atar wonder", "name_ar": "زعتر", "price": "22", "desc_en": "Taboon with za'atar and olive oil.", "tags": ["vegan"] },
-      { "key": "White cheese", "name_en": "White cheese", "name_ar": "جبنة بيضاء", "price": "26", "desc_en": "Taboon filled with white cheese.", "tags": [] },
-      { "key": "White cheese and pesto", "name_en": "White cheese and pesto", "name_ar": "جبنة بيضاء وبيستو", "price": "29", "desc_en": "White cheese with fresh pesto.", "tags": [] },
-      { "key": "Labneh and roast beef", "name_en": "Labneh and roast beef", "name_ar": "لبنة ولحمة محمرة", "price": "30", "desc_en": "Creamy labneh with roast beef.", "tags": [] },
-      { "key": "Eggs and cheese bliss", "name_en": "Eggs and cheese bliss", "name_ar": "بيض وجبنة", "price": "28", "desc_en": "Taboon with eggs and melted cheese.", "tags": [] }
-    ]},
-    { "id": "focaccia", "label_en": "Focaccia", "label_ar": "فوكاشيا", "items": [
-      { "key": "Napolitana", "name_en": "Napolitana", "name_ar": "نابوليتانا", "price": "41", "desc_en": "Focaccia with tomato and basil.", "tags": [] },
-      { "key": "Pepperoni", "name_en": "Pepperoni", "name_ar": "بيبروني", "price": "47", "desc_en": "Focaccia with spicy pepperoni.", "tags": ["spicy"] },
-      { "key": "Bianca", "name_en": "Bianca", "name_ar": "بيانكا", "price": "49", "desc_en": "White focaccia, no tomato sauce.", "tags": [] },
-      { "key": "Vegetables", "name_en": "Vegetables", "name_ar": "خضار", "price": "44", "desc_en": "Grilled vegetables on focaccia.", "tags": ["vegan"] },
-      { "key": "Buffalo blaze chicken", "name_en": "Buffalo blaze chicken", "name_ar": "دجاج بافلو", "price": "48", "desc_en": "Focaccia with spicy buffalo chicken.", "tags": ["spicy"] },
-      { "key": "Mushroom truffle", "name_en": "Mushroom truffle", "name_ar": "مشروم ترفل", "price": "54", "desc_en": "Mushroom with luxurious truffle oil.", "tags": [] }
-    ]},
-    { "id": "salads", "label_en": "Salads", "label_ar": "السلطات", "items": [
-      { "key": "Halloumi Garden Delight", "name_en": "Halloumi Garden Delight", "name_ar": "حلوم جاردن ديلايت", "price": "45", "desc_en": "Grilled halloumi with garden vegetables.", "tags": [] },
-      { "key": "Arugula & Beets", "name_en": "Arugula & Beets", "name_ar": "جرجير وشمندر", "price": "41", "desc_en": "Arugula with roasted beets and goat cheese.", "tags": ["vegan"] },
-      { "key": "Quinoa Garden Salad", "name_en": "Quinoa Garden Salad", "name_ar": "كينوا جاردن سلطة", "price": "43", "desc_en": "Quinoa with colourful fresh vegetables.", "tags": ["vegan"] },
-      { "key": "Caprese Salad", "name_en": "Caprese Salad", "name_ar": "سلطة كابريزي", "price": "45", "desc_en": "Mozzarella with tomato and basil.", "tags": [] },
-      { "key": "Caesar Teaser", "name_en": "Caesar Teaser", "name_ar": "سيزر", "price": "42", "desc_en": "Classic Caesar with creamy dressing.", "tags": [] },
-      { "key": "Artisan's special Tabbouleh and Jameed", "name_en": "Artisan's special Tabbouleh and Jameed", "name_ar": "تبولة أرتيزان مع الجميد", "price": "42", "desc_en": "Artisan's special tabbouleh with jameed.", "tags": ["vegan"] }
-    ]},
-    { "id": "mezze", "label_en": "Mezze", "label_ar": "مزة", "items": [
-      { "key": "Za'atar Rolls", "name_en": "Za'atar Rolls", "name_ar": "رولز الزعتر", "price": "25", "desc_en": "Rolls stuffed with za'atar.", "tags": ["vegan"] },
-      { "key": "Chilli Lime Edamame", "name_en": "Chilli Lime Edamame", "name_ar": "إدامامي بالليمون والفلفل الحار", "price": "26", "desc_en": "Edamame served with labneh and za'atar.", "tags": ["vegan", "spicy"] },
-      { "key": "Nachos Supreme", "name_en": "Nachos Supreme", "name_ar": "ناتشوز سوبريم", "price": "45", "desc_en": "Crispy nachos with all the toppings.", "tags": [] }
-    ]},
-    { "id": "appetizers", "label_en": "Appetizers", "label_ar": "مقبلات", "items": [
-      { "key": "Chicken tenders", "name_en": "Chicken tenders", "name_ar": "أصابع الدجاج", "price": "44", "desc_en": "Crispy chicken with wedges and homemade sauces.", "tags": [] },
-      { "key": "Truffle Parmesan French Fries", "name_en": "Truffle Parmesan French Fries", "name_ar": "بطاطا بالترفل والبارميزان", "price": "28", "desc_en": "French fries with truffle oil and parmesan.", "tags": [] },
-      { "key": "Artisan's signature Truffle Quinoa risotto", "name_en": "Artisan's signature Truffle Quinoa risotto", "name_ar": "ريزوتو الكينوا بالترفل", "price": "55", "desc_en": "Creamy quinoa risotto with truffle.", "tags": ["vegan"] },
-      { "key": "Sauteed lemon and garlic shrimps", "name_en": "Sauteed lemon and garlic shrimps", "name_ar": "جمبري بالليمون والثوم", "price": "55", "desc_en": "Fresh shrimps sauteed with lemon and garlic.", "tags": [] },
-      { "key": "Spicy lemon and garlic potato wedges", "name_en": "Spicy lemon and garlic potato wedges", "name_ar": "بطاطا حارة بالليمون والثوم", "price": "26", "desc_en": "Spicy potato wedges with lemon and garlic.", "tags": ["vegan", "spicy"] }
-    ]},
-    { "id": "sandwiches", "label_en": "Sandwiches", "label_ar": "ساندويتشات", "items": [
-      { "key": "Smash Burger Deluxe", "name_en": "Smash Burger Deluxe", "name_ar": "سماش برجر ديلوكس", "price": "55", "desc_en": "A deluxe smash burger with melted cheese.", "tags": [] },
-      { "key": "Avocado & Chicken Gourmet Sandwich", "name_en": "Avocado & Chicken Gourmet Sandwich", "name_ar": "ساندويش أفوكادو ودجاج", "price": "43", "desc_en": "Grilled chicken with fresh avocado.", "tags": [] },
-      { "key": "Smoked Salmon Symphony Sandwich", "name_en": "Smoked Salmon Symphony Sandwich", "name_ar": "ساندويش سلمون مدخن", "price": "45", "desc_en": "Smoked salmon with cream cheese and dill.", "tags": [] },
-      { "key": "Verde grilled chicken", "name_en": "Verde grilled chicken", "name_ar": "دجاج مشوي فيردي", "price": "43", "desc_en": "Grilled chicken with fresh verde sauce.", "tags": [] },
-      { "key": "Halloumi Harmony Sandwich", "name_en": "Halloumi Harmony Sandwich", "name_ar": "ساندويش حلوم", "price": "43", "desc_en": "Grilled halloumi with fresh vegetables.", "tags": [] },
-      { "key": "Philly Cheesesteak Prestige", "name_en": "Philly Cheesesteak Prestige", "name_ar": "فيلي تشيز ستيك", "price": "57", "desc_en": "Beef with melted cheese, peppers and onion.", "tags": [] },
-      { "key": "Artisan's Chicken wrap", "name_en": "Artisan's Chicken wrap", "name_ar": "راب دجاج أرتيزان", "price": "39", "desc_en": "Grilled chicken wrap with Artisan's sauce.", "tags": [] },
-      { "key": "Chicken Club Sandwich", "name_en": "Chicken Club Sandwich", "name_ar": "كلوب ساندويش دجاج", "price": "42", "desc_en": "Triple-layer chicken club sandwich.", "tags": [] }
-    ]},
-    { "id": "pastas", "label_en": "Pastas", "label_ar": "باستا", "items": [
-      { "key": "Build your own pasta", "name_en": "Build your own pasta", "name_ar": "اصنع الباستا الخاصة بك", "price": "43", "desc_en": "Choose your pasta & sauce, then add protein.", "tags": [] }
-    ]},
-    { "id": "mains", "label_en": "Main Courses", "label_ar": "الأطباق الرئيسية", "items": [
-      { "key": "Chicken Teriyaki", "name_en": "Chicken Teriyaki", "name_ar": "دجاج ترياكي", "price": "62", "desc_en": "Grilled chicken in teriyaki sauce, with rice.", "tags": [] },
-      { "key": "Creamy Chicken Mushroom Crisp", "name_en": "Creamy Chicken Mushroom Crisp", "name_ar": "دجاج بالمشروم الكريمي", "price": "60", "desc_en": "Crisp chicken with creamy mushroom sauce and rice.", "tags": [] },
-      { "key": "Russian Stroganoff", "name_en": "Russian Stroganoff", "name_ar": "ستروجانوف روسي", "price": "72", "desc_en": "Classic creamy beef stroganoff.", "tags": [] },
-      { "key": "Char-Grilled Chicken", "name_en": "Char-Grilled Chicken", "name_ar": "دجاج مشوي على الفحم", "price": "68", "desc_en": "Char-grilled chicken with veggies, rice or freekeh.", "tags": [] },
-      { "key": "Aged Entrecote (330gm)", "name_en": "Aged Entrecote (330gm)", "name_ar": "انتريكوت", "price": "135", "desc_en": "330gm aged entrecote with wedges and grilled veggies.", "tags": [] }
-    ]}
+    {
+      "id": "breakfast",
+      "label_en": "Breakfast",
+      "label_ar": "الفطور",
+      "items": [
+        {
+          "key": "Artisan Breakfast",
+          "name_en": "Artisan Breakfast",
+          "name_ar": "فطور أرتيزان",
+          "price": "56",
+          "desc_en": "A luxurious breakfast spread for two."
+        },
+        {
+          "key": "Folded Omelette Delight sandwich",
+          "name_en": "Folded Omelette Delight sandwich",
+          "name_ar": "ساندويش أومليت مطوي",
+          "price": "35",
+          "desc_en": "A folded omelette in a delicious sandwich."
+        },
+        {
+          "key": "Sujok Sunrise Omelette",
+          "name_en": "Sujok Sunrise Omelette",
+          "name_ar": "أومليت السجق",
+          "price": "42",
+          "desc_en": "Omelette rich with spicy sujok.",
+          "tags": [
+            "spicy"
+          ]
+        },
+        {
+          "key": "Brioche French Toast Luxe",
+          "name_en": "Brioche French Toast Luxe",
+          "name_ar": "توست فرنسي بريوش فاخر",
+          "price": "42",
+          "desc_en": "French toast on rich brioche."
+        },
+        {
+          "key": "Crostini Benedict",
+          "name_en": "Crostini Benedict",
+          "name_ar": "كروستيني بينديكت",
+          "price": "39",
+          "desc_en": "Eggs benedict on crisp crostini."
+        },
+        {
+          "key": "Sausage sajiyeh",
+          "name_en": "Sausage sajiyeh",
+          "name_ar": "صاجية سجق",
+          "price": "40",
+          "desc_en": "Sausage cooked on the saj."
+        },
+        {
+          "key": "Halloumi and honey",
+          "name_en": "Halloumi and honey",
+          "name_ar": "حلوم وعسل",
+          "price": "27",
+          "desc_en": "Grilled halloumi with natural honey."
+        },
+        {
+          "key": "Hummus beef",
+          "name_en": "Hummus beef",
+          "name_ar": "حمص باللحم",
+          "price": "35",
+          "desc_en": "Creamy hummus with spiced beef."
+        },
+        {
+          "key": "Hummus chicken",
+          "name_en": "Hummus chicken",
+          "name_ar": "حمص بالدجاج",
+          "price": "30",
+          "desc_en": "Creamy hummus with chicken."
+        },
+        {
+          "key": "Labneh and herbs",
+          "name_en": "Labneh and herbs",
+          "name_ar": "لبنة بالأعشاب",
+          "price": "23",
+          "desc_en": "Fresh labneh with aromatic herbs.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "Eggs and potatoes",
+          "name_en": "Eggs and potatoes",
+          "name_ar": "بيض وبطاطا",
+          "price": "25",
+          "desc_en": "Eggs with crispy roasted potatoes."
+        },
+        {
+          "key": "Shakshouka",
+          "name_en": "Shakshouka",
+          "name_ar": "شكشوكة",
+          "price": "30",
+          "desc_en": "Eggs poached in rich tomato sauce.",
+          "tags": [
+            "spicy"
+          ]
+        },
+        {
+          "key": "Artisan avo plate",
+          "name_en": "Artisan avo plate",
+          "name_ar": "صحن أفوكادو أرتيزان",
+          "price": "25",
+          "desc_en": "Fresh avocado with toppings.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "Tasliha plate",
+          "name_en": "Tasliha plate",
+          "name_ar": "صحن تصليحة",
+          "price": "13",
+          "desc_en": "A traditional tasliha plate."
+        }
+      ]
+    },
+    {
+      "id": "taboon",
+      "label_en": "Taboon",
+      "label_ar": "الطابون",
+      "items": [
+        {
+          "key": "Za'atar wonder",
+          "name_en": "Za'atar wonder",
+          "name_ar": "زعتر",
+          "price": "22",
+          "desc_en": "Taboon with za'atar and olive oil.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "White cheese",
+          "name_en": "White cheese",
+          "name_ar": "جبنة بيضاء",
+          "price": "26",
+          "desc_en": "Taboon filled with white cheese."
+        },
+        {
+          "key": "White cheese and pesto",
+          "name_en": "White cheese and pesto",
+          "name_ar": "جبنة بيضاء وبيستو",
+          "price": "29",
+          "desc_en": "White cheese with fresh pesto."
+        },
+        {
+          "key": "Labneh and roast beef",
+          "name_en": "Labneh and roast beef",
+          "name_ar": "لبنة ولحمة محمرة",
+          "price": "30",
+          "desc_en": "Creamy labneh with roast beef."
+        },
+        {
+          "key": "Eggs and cheese bliss",
+          "name_en": "Eggs and cheese bliss",
+          "name_ar": "بيض وجبنة",
+          "price": "28",
+          "desc_en": "Taboon with eggs and melted cheese."
+        }
+      ]
+    },
+    {
+      "id": "focaccia",
+      "label_en": "Focaccia",
+      "label_ar": "فوكاشيا",
+      "items": [
+        {
+          "key": "Napolitana",
+          "name_en": "Napolitana",
+          "name_ar": "نابوليتانا",
+          "price": "41",
+          "desc_en": "Focaccia with tomato and basil."
+        },
+        {
+          "key": "Pepperoni",
+          "name_en": "Pepperoni",
+          "name_ar": "بيبروني",
+          "price": "47",
+          "desc_en": "Focaccia with spicy pepperoni.",
+          "tags": [
+            "spicy"
+          ]
+        },
+        {
+          "key": "Bianca",
+          "name_en": "Bianca",
+          "name_ar": "بيانكا",
+          "price": "49",
+          "desc_en": "White focaccia, no tomato sauce."
+        },
+        {
+          "key": "Vegetables",
+          "name_en": "Vegetables",
+          "name_ar": "خضار",
+          "price": "44",
+          "desc_en": "Grilled vegetables on focaccia.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "Buffalo blaze chicken",
+          "name_en": "Buffalo blaze chicken",
+          "name_ar": "دجاج بافلو",
+          "price": "48",
+          "desc_en": "Focaccia with spicy buffalo chicken.",
+          "tags": [
+            "spicy"
+          ]
+        },
+        {
+          "key": "Mushroom truffle",
+          "name_en": "Mushroom truffle",
+          "name_ar": "مشروم ترفل",
+          "price": "54",
+          "desc_en": "Mushroom with luxurious truffle oil."
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "label_en": "Salads",
+      "label_ar": "السلطات",
+      "items": [
+        {
+          "key": "Halloumi Garden Delight",
+          "name_en": "Halloumi Garden Delight",
+          "name_ar": "حلوم جاردن ديلايت",
+          "price": "45",
+          "desc_en": "Grilled halloumi with garden vegetables."
+        },
+        {
+          "key": "Arugula & Beets",
+          "name_en": "Arugula & Beets",
+          "name_ar": "جرجير وشمندر",
+          "price": "41",
+          "desc_en": "Arugula with roasted beets and goat cheese.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "Quinoa Garden Salad",
+          "name_en": "Quinoa Garden Salad",
+          "name_ar": "كينوا جاردن سلطة",
+          "price": "43",
+          "desc_en": "Quinoa with colourful fresh vegetables.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "Caprese Salad",
+          "name_en": "Caprese Salad",
+          "name_ar": "سلطة كابريزي",
+          "price": "45",
+          "desc_en": "Mozzarella with tomato and basil."
+        },
+        {
+          "key": "Caesar Teaser",
+          "name_en": "Caesar Teaser",
+          "name_ar": "سيزر",
+          "price": "42",
+          "desc_en": "Classic Caesar with creamy dressing."
+        },
+        {
+          "key": "Artisan's special Tabbouleh and Jameed",
+          "name_en": "Artisan's special Tabbouleh and Jameed",
+          "name_ar": "تبولة أرتيزان مع الجميد",
+          "price": "42",
+          "desc_en": "Artisan's special tabbouleh with jameed.",
+          "tags": [
+            "vegan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mezze",
+      "label_en": "Mezze",
+      "label_ar": "مزة",
+      "items": [
+        {
+          "key": "Za'atar Rolls",
+          "name_en": "Za'atar Rolls",
+          "name_ar": "رولز الزعتر",
+          "price": "25",
+          "desc_en": "Rolls stuffed with za'atar.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "Chilli Lime Edamame",
+          "name_en": "Chilli Lime Edamame",
+          "name_ar": "إدامامي بالليمون والفلفل الحار",
+          "price": "26",
+          "desc_en": "Edamame served with labneh and za'atar.",
+          "tags": [
+            "vegan",
+            "spicy"
+          ]
+        },
+        {
+          "key": "Nachos Supreme",
+          "name_en": "Nachos Supreme",
+          "name_ar": "ناتشوز سوبريم",
+          "price": "45",
+          "desc_en": "Crispy nachos with all the toppings."
+        }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "label_en": "Appetizers",
+      "label_ar": "مقبلات",
+      "items": [
+        {
+          "key": "Chicken tenders",
+          "name_en": "Chicken tenders",
+          "name_ar": "أصابع الدجاج",
+          "price": "44",
+          "desc_en": "Crispy chicken with wedges and homemade sauces."
+        },
+        {
+          "key": "Truffle Parmesan French Fries",
+          "name_en": "Truffle Parmesan French Fries",
+          "name_ar": "بطاطا بالترفل والبارميزان",
+          "price": "28",
+          "desc_en": "French fries with truffle oil and parmesan."
+        },
+        {
+          "key": "Artisan's signature Truffle Quinoa risotto",
+          "name_en": "Artisan's signature Truffle Quinoa risotto",
+          "name_ar": "ريزوتو الكينوا بالترفل",
+          "price": "55",
+          "desc_en": "Creamy quinoa risotto with truffle.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "key": "Sauteed lemon and garlic shrimps",
+          "name_en": "Sauteed lemon and garlic shrimps",
+          "name_ar": "جمبري بالليمون والثوم",
+          "price": "55",
+          "desc_en": "Fresh shrimps sauteed with lemon and garlic."
+        },
+        {
+          "key": "Spicy lemon and garlic potato wedges",
+          "name_en": "Spicy lemon and garlic potato wedges",
+          "name_ar": "بطاطا حارة بالليمون والثوم",
+          "price": "26",
+          "desc_en": "Spicy potato wedges with lemon and garlic.",
+          "tags": [
+            "vegan",
+            "spicy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "label_en": "Sandwiches",
+      "label_ar": "ساندويتشات",
+      "items": [
+        {
+          "key": "Smash Burger Deluxe",
+          "name_en": "Smash Burger Deluxe",
+          "name_ar": "سماش برجر ديلوكس",
+          "price": "55",
+          "desc_en": "A deluxe smash burger with melted cheese."
+        },
+        {
+          "key": "Avocado & Chicken Gourmet Sandwich",
+          "name_en": "Avocado & Chicken Gourmet Sandwich",
+          "name_ar": "ساندويش أفوكادو ودجاج",
+          "price": "43",
+          "desc_en": "Grilled chicken with fresh avocado."
+        },
+        {
+          "key": "Smoked Salmon Symphony Sandwich",
+          "name_en": "Smoked Salmon Symphony Sandwich",
+          "name_ar": "ساندويش سلمون مدخن",
+          "price": "45",
+          "desc_en": "Smoked salmon with cream cheese and dill."
+        },
+        {
+          "key": "Verde grilled chicken",
+          "name_en": "Verde grilled chicken",
+          "name_ar": "دجاج مشوي فيردي",
+          "price": "43",
+          "desc_en": "Grilled chicken with fresh verde sauce."
+        },
+        {
+          "key": "Halloumi Harmony Sandwich",
+          "name_en": "Halloumi Harmony Sandwich",
+          "name_ar": "ساندويش حلوم",
+          "price": "43",
+          "desc_en": "Grilled halloumi with fresh vegetables."
+        },
+        {
+          "key": "Philly Cheesesteak Prestige",
+          "name_en": "Philly Cheesesteak Prestige",
+          "name_ar": "فيلي تشيز ستيك",
+          "price": "57",
+          "desc_en": "Beef with melted cheese, peppers and onion."
+        },
+        {
+          "key": "Artisan's Chicken wrap",
+          "name_en": "Artisan's Chicken wrap",
+          "name_ar": "راب دجاج أرتيزان",
+          "price": "39",
+          "desc_en": "Grilled chicken wrap with Artisan's sauce."
+        },
+        {
+          "key": "Chicken Club Sandwich",
+          "name_en": "Chicken Club Sandwich",
+          "name_ar": "كلوب ساندويش دجاج",
+          "price": "42",
+          "desc_en": "Triple-layer chicken club sandwich."
+        }
+      ]
+    },
+    {
+      "id": "pastas",
+      "label_en": "Pastas",
+      "label_ar": "باستا",
+      "items": [
+        {
+          "key": "Build your own pasta",
+          "name_en": "Build your own pasta",
+          "name_ar": "اصنع الباستا الخاصة بك",
+          "price": "43",
+          "desc_en": "Choose your pasta & sauce, then add protein."
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "label_en": "Main Courses",
+      "label_ar": "الأطباق الرئيسية",
+      "items": [
+        {
+          "key": "Chicken Teriyaki",
+          "name_en": "Chicken Teriyaki",
+          "name_ar": "دجاج ترياكي",
+          "price": "62",
+          "desc_en": "Grilled chicken in teriyaki sauce, with rice."
+        },
+        {
+          "key": "Creamy Chicken Mushroom Crisp",
+          "name_en": "Creamy Chicken Mushroom Crisp",
+          "name_ar": "دجاج بالمشروم الكريمي",
+          "price": "60",
+          "desc_en": "Crisp chicken with creamy mushroom sauce and rice."
+        },
+        {
+          "key": "Russian Stroganoff",
+          "name_en": "Russian Stroganoff",
+          "name_ar": "ستروجانوف روسي",
+          "price": "72",
+          "desc_en": "Classic creamy beef stroganoff."
+        },
+        {
+          "key": "Char-Grilled Chicken",
+          "name_en": "Char-Grilled Chicken",
+          "name_ar": "دجاج مشوي على الفحم",
+          "price": "68",
+          "desc_en": "Char-grilled chicken with veggies, rice or freekeh."
+        },
+        {
+          "key": "Aged Entrecote (330gm)",
+          "name_en": "Aged Entrecote (330gm)",
+          "name_ar": "انتريكوت",
+          "price": "135",
+          "desc_en": "330gm aged entrecote with wedges and grilled veggies."
+        }
+      ]
+    }
   ]
 }
