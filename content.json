@@ -21,14 +21,14 @@
         {
           "key": "Artisan Breakfast",
           "name_en": "Artisan Breakfast",
-          "name_ar": "فطور أرتيزان",
+          "name_ar": "فطور أرتيسان",
           "price": "56",
           "desc_en": "A luxurious breakfast spread for two."
         },
         {
           "key": "Folded Omelette Delight sandwich",
           "name_en": "Folded Omelette Delight sandwich",
-          "name_ar": "ساندويش أومليت مطوي",
+          "name_ar": "ساندويش أومليت ",
           "price": "35",
           "desc_en": "A folded omelette in a delicious sandwich."
         },
