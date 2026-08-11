@@ -2,15 +2,15 @@
   "brand": {
     "location_en": "Isa Ziada St 3, Ramallah",
     "location_ar": "شارع عيسى زيادة ٣، رام الله",
-    "hours_en": "Daily 7 AM – 12 AM",
+    "hours_en": "Daily 8 AM – 12 AM",
     "hours_ar": "يومياً  8 ص – ١٢ م",
     "phone": "+970 594 505 505",
     "instagram": "@cafe.de.la.paix",
     "hero_sub_en": "Artful flavours crafted with passion — from authentic breakfasts to refined plates. Discover our menu.",
-    "hero_sub_ar": "نكهات فنية مصنوعة بشغف — من الفطور الأصيل إلى الأطباق الفاخرة. اكتشف قائمتنا.",
+    "hero_sub_ar": "نكهات مشغولة بحب وذوق — من الفطار البلدي الأصيل لأطباق راقية , اكتشف قائمتنا",
     "tagline_en": "Where craft meets hospitality. We look forward to welcoming you.",
     "tagline_ar": "حيث تلتقي الحرفية بالضيافة. نتطلع لاستقبالكم.",
-    "logo": "/menu/Screenshot 2026-08-09 141455-2.png"
+    "logo": "/menu/artisanbranchpng.png"
   },
   "categories": [
     {
@@ -488,7 +488,7 @@
         {
           "key": "Aged Entrecote (330gm)",
           "name_en": "Aged Entrecote (330gm)",
-          "name_ar": "انتريكوت",
+          "name_ar": "انتريكوت معتق ",
           "price": "135",
           "desc_en": "330gm aged entrecote with wedges and grilled veggies."
         }
