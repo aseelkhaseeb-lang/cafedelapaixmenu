@@ -427,7 +427,8 @@
           "name_en": "Artisan's Chicken wrap",
           "name_ar": "راب دجاج أرتيزان",
           "price": "39",
-          "desc_en": "Grilled chicken wrap with Artisan's sauce."
+          "desc_en": "Grilled chicken wrap with Artisan's sauce.",
+          "image": "/menu/ChatGPT Image Aug 18, 2026, 02_35_04 PM (2).png"
         },
         {
           "key": "Chicken Club Sandwich",
@@ -490,7 +491,8 @@
           "name_en": "Aged Entrecote (330gm)",
           "name_ar": "انتريكوت معتق ",
           "price": "135",
-          "desc_en": "330gm aged entrecote with wedges and grilled veggies."
+          "desc_en": "330gm aged entrecote with wedges and grilled veggies.",
+          "image": "/menu/IMG_1228.JPG.jpeg"
         }
       ]
     }
