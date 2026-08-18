@@ -336,7 +336,8 @@
           "name_en": "Chicken tenders",
           "name_ar": "أصابع الدجاج",
           "price": "44",
-          "desc_en": "Crispy chicken with wedges and homemade sauces."
+          "desc_en": "Crispy chicken with wedges and homemade sauces.",
+          "image": "/menu/ChatGPT Image Aug 18, 2026, 02_35_04 PM (1).png"
         },
         {
           "key": "Truffle Parmesan French Fries",
